@@ -1,0 +1,201 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Courier, monospace;
+}
+
+body {
+    background-color: #504375;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    color: beige;
+    flex-wrap: wrap;
+    background-color: #39324d;
+}
+
+.header i {
+    font-size: 3em;
+    color: beige;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 1em;
+    list-style: none;
+    font-size: 1em;
+}
+
+.menu li a {
+    text-decoration: none;
+    padding: 1em;
+    color: beige;
+    border-radius: 5px;
+}
+
+.menu li :hover {
+    transition: 1s;
+    cursor: pointer;
+    color: aqua;
+}
+
+.Inicio {
+    padding: 8em;
+    background-color: rgb(226, 233, 233);
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -70px;
+}
+
+.Inicio h3 {
+    font-size: 2em;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: -50px;
+    text-align: center;
+}
+
+.Inicio p {
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.flex {
+    padding: 3em;
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.flex h2 {
+    font-size: 2.2em;
+    color: beige;
+    text-align: center;
+    margin: 2rem;
+}
+
+hr {
+ width: 20em;
+ margin: 0 auto;
+}
+
+.pai {
+    display: flex;
+    background-color: transparent;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.pai div p {
+    font-size: 0.8em;
+}
+
+.pai div {
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.418);
+    background-color: beige;
+    color: black;
+    border-radius: 30px;
+    border-color: transparent;
+    padding: 1em;
+    width:  20rem;
+}
+
+
+.sobre {
+    padding: 8em;
+    background-color: rgb(226, 233, 233);
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -70px;
+}
+
+.sobre h3 {
+    font-size: 2em;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: -50px;
+    text-align: center;
+}
+
+.sobre p {
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.sobre img {
+    width: 450px;
+    height: 450px;
+    margin-left: 500 px;
+    margin-top: -70px;
+    border-radius: 30px;
+
+}
+
+.formulario {
+    align-items: center;
+    color: bisque;
+    padding: 4rem;
+    border: 10px;
+    border-radius: 20px;
+}
+
+
+.rodapé {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #39324d;
+    padding: 3em;
+    flex-wrap: wrap;
+    color: white;
+    text-decoration: none;
+}
+
+.FT {
+    display: flex;
+}
+
+.FT li {
+    margin-right: 20px;
+    list-style: none;
+    display: inline;
+}
+
+
+
+.FT li a {
+    text-decoration: none;
+    color: beige;
+    font-size: 1em;
+    padding: 1em;
+}
+
+.FT a:hover {
+    color: aqua;
+    transition: 0.8s;
+}
+
+.FT i {
+    color: black;
+    font-size: 1.2em;
+    background-color: pink;
+    padding: 0.3em;
+    margin-left: 10px;
+    border-radius: 30px;
+    margin-bottom: 0.5em;
+}
+
+
