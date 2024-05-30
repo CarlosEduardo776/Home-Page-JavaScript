@@ -84,11 +84,23 @@ body {
     margin-bottom: -10px;
 }
 
-hr {
+.frameworkHR {
  width: 20em;
  margin: 0 auto;
  margin-bottom: -2em;
 }
+
+.bibliotecaHR {
+    width: 37em;
+    margin: 0 auto;
+    margin-bottom: -2em;
+   }
+
+   .bibliotecaHR2 {
+    width: 60rem;
+    margin: 0 auto;
+    margin-bottom: -2em;
+   }
 
 .pai {
     display: flex;
