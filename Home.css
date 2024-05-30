@@ -71,9 +71,8 @@ body {
 
 .flex {
     padding: 3em;
-    display: block;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;;
 
 }
 
@@ -82,33 +81,38 @@ body {
     color: beige;
     text-align: center;
     margin: 2rem;
+    margin-bottom: -10px;
 }
 
 hr {
  width: 20em;
  margin: 0 auto;
+ margin-bottom: -2em;
 }
 
 .pai {
     display: flex;
-    background-color: transparent;
-    gap: 20px;
-    justify-content: center;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; /* Centralizar horizontalmente as sections */
+    margin-top: 50px;
+    max-width: 1200px;
 }
 
-.pai div p {
+
+.pai section p {
     font-size: 0.8em;
+
 }
 
-.pai div {
+.pai section {
     box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.418);
     background-color: beige;
     color: black;
     border-radius: 30px;
     border-color: transparent;
     padding: 1em;
-    width:  20rem;
+    width: calc(50% - 20px); /* 50% do espaço disponível para cada seção, considerando a lacuna de 20px */
+    margin-bottom: 20px; /* Espaço entre as seções */
 }
 
 
