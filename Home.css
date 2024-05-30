@@ -15,7 +15,7 @@ body {
     padding: 50px;
     color: beige;
     flex-wrap: wrap;
-    background-color: #39324d;
+    background-color: #574345;
 }
 
 .header i {
@@ -48,7 +48,7 @@ body {
 
 .Inicio {
     padding: 8em;
-    background-color: rgb(226, 233, 233);
+    background-color: #beb8b1;
     display: flex;
     justify-content: space-around;
     margin-bottom: -70px;
@@ -72,8 +72,25 @@ body {
 .flex {
     padding: 3em;
     justify-content: space-around;
-    align-items: center;;
+    align-items: center;
+    background-color: #a7a19a;
 
+}
+
+.flex2 {
+    padding: 3em;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #908a84 ;
+
+}
+
+.flex2 h2 {
+    font-size: 2.2em;
+    color: beige;
+    text-align: center;
+    margin: 2rem;
+    margin-bottom: -10px;
 }
 
 .flex h2 {
@@ -130,7 +147,7 @@ body {
 
 .sobre {
     padding: 8em;
-    background-color: rgb(226, 233, 233);
+    background-color: #e0e0a8;
     display: flex;
     justify-content: space-around;
     margin-bottom: -70px;
@@ -145,7 +162,7 @@ body {
 }
 
 .sobre p {
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-decoration: none;
     margin-left: 50px;
     text-align: justify;
@@ -173,7 +190,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #39324d;
+    background-color: #574345;
     padding: 3em;
     flex-wrap: wrap;
     color: white;
