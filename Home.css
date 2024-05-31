@@ -46,23 +46,53 @@ body {
     color: aqua;
 }
 
-.Inicio {
+.inicio {
     padding: 8em;
     background-color: #beb8b1;
-    display: flex;
-    justify-content: space-around;
     margin-bottom: -70px;
 }
 
-.Inicio h3 {
+.inicio h1 {
     font-size: 2em;
     text-decoration: none;
     margin-left: 50px;
     margin-top: -50px;
     text-align: center;
+    padding-bottom: 0.5em;
 }
 
-.Inicio p {
+.inicio p {
+    font-size: 1.3em;
+    text-decoration: none;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.exemplo {
+    padding: 8em;
+    background-color: #beb8b1;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -70px;
+    margin-top: -70px;
+}
+
+.exemplo ul {
+    margin-top: 1.3em;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+}
+
+.exemplo h3 {
+    font-size: 2em;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: -80px;
+    text-align: center;
+}
+
+.exemplo p {
     font-size: 1.5em;
     text-decoration: none;
     margin-left: 50px;
@@ -221,14 +251,14 @@ body {
     transition: 0.8s;
 }
 
-.FT i {
-    color: black;
-    font-size: 1.2em;
-    background-color: pink;
+.rodapé i {
+    color: pink;
+    font-size: 2em;
     padding: 0.3em;
     margin-left: 10px;
     border-radius: 30px;
-    margin-bottom: 0.5em;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
 }
 
 
